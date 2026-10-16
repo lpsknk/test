@@ -1,0 +1,19 @@
+{
+  "id": "community.miku.catalog",
+  "version": "1.0.0",
+  "name": "Miku Catalog",
+  "description": "Shows e filmes de Hatsune Miku e Vocaloid (Magical Mirai, Miku Expo e mais).",
+  "resources": ["catalog"],
+  "types": ["movie"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "miku.concerts",
+      "name": "Hatsune Miku - Shows e Filmes"
+    }
+  ],
+  "behaviorHints": {
+    "configurable": false,
+    "configurationRequired": false
+  }
+}
